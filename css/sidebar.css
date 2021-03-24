@@ -8,7 +8,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    zindex: 999;
+    z-index: 999;
     height: 100vh;
     background: #7386D5;
     color: #fff;
