@@ -1,0 +1,164 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  /* GLOBAL STYLES
+  --------------------------------------------- */
+  /* Padding below the footer and lighter body text */
+
+  body {
+    padding-top: 3rem;
+    color: #464646;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  nav {
+      background-color: rgb(190, 190, 190);
+      font-family: 'Barlow Semi Condensed';
+  }
+
+  .langganan {
+    background-color: #eee;
+  }
+
+  .nav-link:hover{
+    border-bottom: 1px solid black;
+  }
+
+  .nav-item.active .nav-link {
+    border-bottom: 1px solid black;
+  }
+
+  .star {
+    margin-left: 12px;
+    color: orange;
+    font-size: 13px;
+  }
+  
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------- */
+
+  /* Carousel base class */
+  .carousel {
+    margin: 5%;
+    width: auto;
+  }
+
+  .col {
+    padding: 0%;
+  }
+
+
+  /* MARKETING CONTENT
+-------------------------------------------------- */
+
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .marketing h2 {
+    font-weight: 400;
+  }
+
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+
+  /* Featurettes
+------------------------- */
+
+
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+
+  .card {
+    fill: white;
+    border-radius: 60px;
+    box-shadow: 20px 20px 50px 10px grey;
+    margin-bottom: 20px;
+  }
+
+  .card-body p {
+      font-family: 'Open Sans';
+      font-size: 14px;
+  }
+
+  .card-img-top {
+    border-radius: 20%; 
+    margin-top: 10px;
+  }
+
+  footer {
+    background-color: rgb(190, 190, 190);
+  }
+
+  .box-sosmed{
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 17);
+  }
+
+  .box-sosmed i {
+    vertical-align: bottom;
+    font-size: 18px;
+    color: #eee;
+  }
+  
+  .sosmed-wrapper {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    padding: 0px 10%;
+    -webkit-box-pack: justify;
+    justify-content: center;
+  }
+
+  .carousel-control-prev, .carousel-control-next, .carousel-indicators{
+    display: none;
+  }
+
+  .imghide {
+      display: none;
+  }
+
+  /* RESPONSIVE CSS
+-------------------------------------------------- */
+
+  @media (min-width: 40em) {
+
+    /* Bump up size of carousel content */
+
+    .featurette-heading {
+      font-size: 50px;
+    }
+    .featurette-divider {
+      margin: 5rem 0;
+    }
+    .carousel-control-prev, .carousel-control-next, .carousel-indicators{
+      display:flex;
+    }
+    
+  }
