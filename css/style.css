@@ -24,20 +24,37 @@
   }
 
   nav {
-      background-color: rgb(190, 190, 190);
-      font-family: 'Barlow Semi Condensed';
+    background-color: #7972AF;
   }
 
   .langganan {
-    background-color: #eee;
+    background-color: #D2CDF6;
+    margin-top:90px;
+    height: 16rem;
+    padding-top: 90px; 
+    padding-bottom: 20px;
+  }
+
+  .langganan h4 {
+    padding-bottom: 10px;
+  }
+
+  .langganan input {
+    padding: 5px;
+  }
+
+  .langganan input[type=submit] {
+    margin-left: 10px;
+    background-color: #A199DF;
+    color: white;
   }
 
   .nav-link:hover{
-    border-bottom: 1px solid black;
+    font-weight: bold;
   }
 
-  .nav-item.active .nav-link {
-    border-bottom: 1px solid black;
+  .nav-link.active {
+    border-bottom: 2px solid white;
   }
 
   .star {
@@ -95,6 +112,7 @@
     border-radius: 60px;
     box-shadow: 20px 20px 50px 10px grey;
     margin-bottom: 20px;
+    margin-right: 2%
   }
 
   .card-body p {
@@ -108,7 +126,11 @@
   }
 
   footer {
-    background-color: rgb(190, 190, 190);
+    background-color: #7972AF;
+  }
+
+  footer p {
+    color: white;
   }
 
   .box-sosmed{
