@@ -16,7 +16,7 @@
   /* GLOBAL STYLES
   --------------------------------------------- */
   /* Padding below the footer and lighter body text */
-
+  
   body {
     padding-top: 3rem;
     color: #464646;
@@ -25,7 +25,75 @@
 
   nav {
     background-color: #7972AF;
+    padding:10px;
   }
+
+  h2, h1 {
+    font-family: "Raleway";
+  }
+
+  .karpetlogo {
+    color:#29323c; 
+    background-color:#A199DF; 
+    border-radius: 7px; 
+    padding: 0% 3px;
+  }
+
+  .karpeth1 {
+    background-color: #A199DF; 
+    border-radius: 25px; 
+    color:#29323c; 
+    padding:0% 10px;
+  }
+
+  .headerImage {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-position:50% 70%;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../img/cover.jpg);
+  }
+
+  .headerImage h1 {
+    font-weight: bold;
+    font-family: "Raleway";
+    font-size: 72px;
+    color: #fff;
+    padding-bottom: 20px;
+  }
+
+  .line-1{
+    font-family: "Poppins";
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    color: white;
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 3s steps(44) 1s 1 normal both,
+             blinkTextCursor 700ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 22em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
 
   .langganan {
     background-color: #D2CDF6;
@@ -67,40 +135,14 @@
   -------------------------------------------- */
 
   /* Carousel base class */
-  .carousel {
-    margin: 5%;
-    width: auto;
-  }
-
   .col {
     padding: 0%;
   }
-
-
-  /* MARKETING CONTENT
--------------------------------------------------- */
-
-  /* Center align the text within the three columns below the carousel */
-  .marketing .col-lg-4 {
-    margin-bottom: 1.5rem;
-    text-align: center;
-  }
-
+  
   .marketing h2 {
     font-weight: 400;
   }
 
-  .marketing .col-lg-4 p {
-    margin-right: .75rem;
-    margin-left: .75rem;
-  }
-
-
-  /* Featurettes
-------------------------- */
-
-
-  /* Thin out the marketing headings */
   .featurette-heading {
     font-weight: 300;
     line-height: 1;
@@ -162,16 +204,7 @@
     display: none;
   }
 
-  .imghide {
-      display: none;
-  }
-
-  /* RESPONSIVE CSS
--------------------------------------------------- */
-
   @media (min-width: 40em) {
-
-    /* Bump up size of carousel content */
 
     .featurette-heading {
       font-size: 50px;

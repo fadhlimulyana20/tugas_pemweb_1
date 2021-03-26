@@ -6,16 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Toko Karpet</title>
 
-  <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/carousel/">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
 
   <!-- Bootstrap core CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-
   <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
 
   <!-- Custom styles for this template -->
@@ -25,10 +27,10 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark shadow py-3 container-fluid fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow container-fluid fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">
-          Dewa<span class="fw-bold">Karpet</span>
+          Dewa<span class="fw-bold karpetlogo">Karpet</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -36,12 +38,12 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="#">Home</a>
+              <a class="nav-link text-center active" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="products.html">Product</a>
+              <a class="nav-link text-center" href="products.html">Product</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item text-center">
               <a class="nav-link" href="about.html">About</a>
             </li>
           </ul>
@@ -52,81 +54,10 @@
 
   <main>
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="row">
-            <div class="col">
-                <a href="#">
-                    <img src="img/1.jpg" alt="Image" style="max-width: 100%;">
-                </a>
-            </div>
-            <div class="col">
-                <a href="#">
-                    <img src="img/1.jpg" alt="Image" style="max-width: 100%;">
-                </a>
-            </div>
-            <div class="col">
-                <a href="#">
-                    <img src="img/1.jpg" alt="Image" style="max-width: 100%;">
-                </a>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row">
-            <div class="col">
-                <a href="#">
-                    <img src="img/2.jpg" alt="Image" style="max-width:100%;">
-                </a>
-            </div>
-            <div class="col">
-                <a href="#">
-                    <img src="img/2.jpg" alt="Image" style="max-width:100%;">
-                </a>
-            </div>
-            <div class="col">
-                <a href="#">
-                    <img src="img/2.jpg" alt="Image" style="max-width:100%;">
-                </a>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row">
-            <div class="col">
-                <a href="#">
-                    <img src="img/3.jpg" alt="Image" style="max-width:100%;">
-                </a>
-            </div>
-            <div class="col">
-                <a href="#">
-                    <img src="img/3.jpg" alt="Image" style="max-width:100%;">
-                </a>
-            </div>
-            <div class="col">
-                <a href="#">
-                    <img src="img/3.jpg" alt="Image" style="max-width:100%;">
-                </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+    <div class="d-flex flex-column justify-content-center align-content-center headerImage">
+      <h1 class="text-center">Dewa<span class="karpeth1">Karpet</span></h1>
+      <p class="line-1 anim-typewriter">Dewa Kipas pernah beli karpet disini!!</p>    
     </div>
-
 
     <!-- Marketing messaging and featurettes
       ================================================== -->
@@ -155,8 +86,7 @@
 
 <hr class="featurette-divider">
 
-<h2 class="featurette-heading text-center mb-0">Produk Terlaris</h2><br />
-<div style="margin:10px auto 30px; width: 100px; border: 2px solid #29323c;"></div>
+<h2 class="featurette-heading text-center mb-0">Produk Terlaris</h2><br /><br />
 <div class="row justify-content-center">
   <div class="card mr-3" style="width: 16rem;">
       <a href="#"><img src="https://cf.shopee.co.id/file/49ec6f7599557628868619a25c5a450c"
@@ -279,7 +209,7 @@
             <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
           </div>
         </div>
-        <p class="text-center" style="margin-bottom: 0%; padding-bottom: 20px;">Copyright &copy; 2021 Perusahaan, Inc. All Rights Reserved</p>
+        <p class="text-center" style="margin-bottom: 0%; padding-bottom: 20px;">Copyright &copy; 2021 DewaKarpet, Inc. All Rights Reserved</p>
       </div>
     </footer>
   </main>
