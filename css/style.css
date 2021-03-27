@@ -239,3 +239,37 @@
     }
     
   }
+
+/* Custom Button class */
+.btn-dewa {
+  background-color: #A199DF;
+  color: white;
+}
+
+.btn-dewa:hover {
+  background-color: #9489e7;
+}
+
+.btn-outline-dewa {
+  background-color: transparent;
+  border: #A199DF solid 1px;
+  color: #9489e7;;
+}
+
+.btn-outline-dewa:hover {
+  background-color: #9489e7;
+  color: #ffff;
+}
+
+/* Font */
+.fw-medium {
+  font-weight: 600;
+}
+
+/* Hoverable-div */
+.hover-shadow:hover {
+  background-color: #fff;
+  box-shadow: 10px 10px 32px 1px rgba(0,0,0,0.35);
+  -webkit-box-shadow: 10px 10px 32px 1px rgba(0,0,0,0.35);
+  -moz-box-shadow: 10px 10px 32px 1px rgba(0,0,0,0.35);
+}
